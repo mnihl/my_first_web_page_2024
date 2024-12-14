@@ -63,9 +63,19 @@
             background-color: #555;
         }
 
+        nav a:active {
+            background-color: blue;
+            color: white;
+        }
+
         nav a.active {
             background-color: red;
             color: white;
+        }
+
+        main a {
+            color: blue;
+            text-decoration: none;
         }
 
         .footer-section {
@@ -145,16 +155,22 @@
         <div class="menu">
             <div class="menu-content">
                 <div class="menu-item">
-                    <img src="./images/location-white.png" alt="Location Icon" class = "menu-icon">
-                    <p>Location</p>
+                    <a href="#">
+                        <img src="./images/location-white.png" alt="Location Icon" class = "menu-icon">
+                        <p>Location</p>
+                    </a>
                 </div>
                 <div class="menu-item">
-                    <img src="./images/telephone-white.png" alt="Phone Icon" class="menu-icon">
-                    <p>+02 1234567890</p>
+                    <a href="#">
+                        <img src="./images/telephone-white.png" alt="Phone Icon" class="menu-icon">
+                        <p>+02 1234567890</p>
+                    </a>
                 </div>
                 <div class="menu-item">
-                    <img src="./images/envelope-white.png" alt="Email Icon" class="menu-icon">
-                    <p>demo@gmail.com</p>
+                    <a href="#">
+                        <img src="./images/envelope-white.png" alt="Email Icon" class="menu-icon">
+                        <p>demo@gmail.com</p>
+                    </a>
                 </div>
             </div>
         </div>
